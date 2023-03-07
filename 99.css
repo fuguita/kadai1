@@ -84,7 +84,12 @@ footer {
   background-color: #AAAAAA;
   }
 
+
   @media screen and (max-width: 768px) {
+
+    header {
+     width: 100%;
+    }
 
     main {
       width: 100%;
@@ -95,8 +100,9 @@ footer {
     .item {
       width: 90%;
       margin-bottom:20px;
-      margin-right:5% ;
+
       margin-left:5%;
+      margin-right:5%;
 
 
     }
@@ -107,19 +113,24 @@ footer {
     }
 
     .image1 {
-      height:245px;
+      height:150px;
     }
 
     .image2 {
-      height:245px;
+      height:150px;
 
     }
 
     .image3 {
-      height:245px;
+      height:150px;
     }
-    .word {
-    ;
+
+    br {
+      display: none;
     }
+
+      footer {
+        width: 100%;
+      }
 
   }
